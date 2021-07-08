@@ -1,5 +1,6 @@
 <?php
 
+
 class Autoloader{
 
     public static function register(){
@@ -8,7 +9,7 @@ class Autoloader{
     }
 
 
-    private function autoload($class){
+    public static function autoload($class){
 
         require 'class/'.$class.'.php';
 

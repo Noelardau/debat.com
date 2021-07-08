@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="public/Semantics/semantic.min.css">
     <link rel="stylesheet" href="public/style.css">
     <script src="public/script/jquery.js"></script>
+    
 </head>
 <body>
     <?php if(!$_SESSION['connected']):?>
-    <div class="ui segment">
+    <div class="ui segment titre">
        <div class="ui header blue">Debat.com</div>
     </div>
     <?php endif;?>
